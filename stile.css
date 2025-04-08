@@ -1,0 +1,150 @@
+/* Impostazioni generali */
+
+
+/* Header e footer */
+header {
+    font-size: 2em;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-top: 20px;
+}
+
+footer {
+    font-size: 1.2em;
+    color: #2c3e50;
+    margin-top: 30px;
+}
+
+/* Sezioni */
+.contenitore {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Titoli */
+h2, h3, h4 {
+    color: #d35400;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Immagini */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Elenchi */
+ol {
+    text-align: left;
+    margin-left: 20%;
+    list-style-type: decimal;
+}
+
+ul {
+    text-align: left;
+    margin-left: 20%;
+    list-style-type: disc;
+}
+
+/* Citazioni e blocchi */
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+}
+
+cite {
+    font-weight: bold;
+}
+
+/* Tag HTML specifici */
+u {
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+/* Codice */
+pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #ccc;
+    overflow-x: auto;
+    text-align: left;
+}
+
+code {
+    font-family: monospace;
+}
+
+/* Personalizzazione per gli ID specifici */
+
+/* Ingredienti */
+#ingredienti {
+	margin: 40px;
+    background-color: #ffe6e6;
+    padding: 20px;
+    border: 2px solid ;
+    
+}
+
+#ingredienti h2 {
+    color: #c0392b;
+    text-decoration: underline;
+}
+
+/* Ricetta */
+#ricetta {
+	margin: 40px;
+    background-color: #eaf2f8;
+    padding: 20px;
+    border: 2px solid ;
+    
+}
+
+#ricetta h3 {
+    color: #3498db;
+    font-style: italic;
+}
+
+/* Tabella Nutrizionale */
+#tabella-nutrizione {
+    background-color: #f5f5f5;
+	margin: 40px;
+    padding: 20px;
+    border: 2px solid ;
+}
+
+#tabella-nutrizione h4 {
+    color: #27ae60;
+    font-weight: bold;
+}
+
+table {
+    width: 90%;
+    margin: 20px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid ;
+}
+
+th, td {
+    padding: 8px;
+}
+
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
